@@ -36,6 +36,10 @@ gem 'devise'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
+gem 'haml'
+gem 'redis'
+gem 'sidekiq'
+gem 'sidekiq-cron'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
@@ -55,6 +59,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'shoulda-matchers'
 end
 
 group :development do

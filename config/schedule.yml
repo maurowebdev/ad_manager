@@ -1,0 +1,4 @@
+update_ad_view_counts:
+  cron: "*/5 * * * *"  # Every 5 minutes
+  class: "UpdateAdViewCountsJob"
+  queue: default
